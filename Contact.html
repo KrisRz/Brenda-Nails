@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Contact</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styleContact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script type="text/javascript">
+    function enter () {
+    alert("Thank you for contacting me, I will be in touch with you shortly.");
+   
+}
+</script>
+    </head>
+
+    <body>
+
+        <header>
+            <a href="index.html">Home</a>
+            
+        </header><br>
+        
+<nav>
+
+  <form>
+    <h2>Contact Us</h2>
+
+    <form action="process-form.php" method="post">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
+    
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your email" required><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" placeholder="Your message" style="width: 300px; height:250px" required></textarea><br>
+    
+    <input type="submit" id="submit" value="Submit" onclick="enter()">
+
+    <!--<p>If you click the "Submit" button, the form-data will be sent to a page called "process-form.php".</p>-->
+
+    </form> 
+                
+
+</nav>
+
+<main>
+
+    <img src="media/ContactIMG.png" alt="BrendaNails">
+    
+</main>
+
+<footer>
+    <p>Location: Midsomer Norton</p>
+    <p>Phone number: <a href="tel:07511201840">07511201840</a></p>
+    <p>Email Adress: <a href="mailto:brendanails78@gmail.com">brendanails78@gmail.com</a></p>
+    <i class="fab fa-facebook"></i><a href="https://www.facebook.com/brendanailsmobile">Brenda Nails Facebook</a><br>
+    <br>
+    <i class="fab fa-instagram"></i><a href="https://www.instagram.com/brenda_nails_uk?igsh=MTNwd3JrOGxyZHpsbA%3D%3D&fbclid=IwAR3DzCZmDHS1NI2NGwOjlLIHwrCRc9UQWvIoLV3_qIoSriODa4FdZu-0A-I_aem_AXSKOTFJJCIsIDaIHmBYgOT5DRG8_qU9jH2w9ULzxbsLjXJFjV0AemeDTTrYBTbgcXeReloV2jrD335C3OWMSGuD">Brenda Nails Instagram</a>
+
+</footer>
+
+</body>
+</html>
